@@ -1,0 +1,1929 @@
+{
+    "nodes": [
+      {
+        "node": {
+          "name": "01",
+          "INDICATION": "01",
+          "Term description": "",
+          "Q01_CAT": "A (9)",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "01",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "02",
+          "INDICATION": "02",
+          "Term description": "STEMI\nA (9)\nOnset of symptoms within the prior 12 to 24 hours\nSevere HF, persistent ischemic symptoms, or hemodynamic or electrical instability present\n",
+          "Q01_CAT": "",
+          "SCORE": "A (9)",
+          "SCORE DEFINITIONS": "02",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "03",
+          "INDICATION": "",
+          "Term description": "3. STEMI\nI (3)\nGreater than 12 hours from symptom onset\nAsymptomatic; no hemodynamic instability and no electrical instability\n",
+          "Q01_CAT": "",
+          "SCORE": "",
+          "SCORE DEFINITIONS": "03",
+          "SCORE_GRAPHIC": "03"
+        }
+      },
+      {
+        "node": {
+          "name": "04",
+          "INDICATION": "",
+          "Term description": "4. STEMI with presumed successful treatment with fibrinolysis\nA (9)\nEvidence of HF, recurrent ischemia, or unstable ventricular arrhythmias present\nOne-vessel CAD presumed to be the culprit artery\n",
+          "Q01_CAT": "",
+          "SCORE": "",
+          "SCORE DEFINITIONS": "04",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "05",
+          "INDICATION": "",
+          "Term description": "5. STEMI with presumed successful treatment with fibrinolysis\nU (5)\nAsymptomatic; no HF or no recurrent ischemic symptoms, or no unstable ventricular arrhythmias\nNormal LVEF\nOne-vessel CAD presumed to be the culprit artery\n",
+          "Q01_CAT": "",
+          "SCORE": "",
+          "SCORE DEFINITIONS": "05",
+          "SCORE_GRAPHIC": "05"
+        }
+      },
+      {
+        "node": {
+          "name": "06",
+          "INDICATION": "",
+          "Term description": "6. STEMI with presumed successful treatment with fibrinolysis\nA (8)\nAsymptomatic; no HF, no recurrent ischemic symptoms, or no unstable ventricular arrhythmias at time of presentation\nDepressed LVEF\nThree-vessel CAD\nElective/semielective revascularization\n",
+          "Q01_CAT": "",
+          "SCORE": "",
+          "SCORE DEFINITIONS": "06",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "07",
+          "INDICATION": "",
+          "Term description": "7. STEMI with successful treatment of the culprit artery by primary PCI or fibrinolysis\nI (2)\nAsymptomatic; no HF, no evidence of recurrent or provokable ischemia, or no unstable ventricular arrhythmias during\nindex hospitalization\nNormal LVEF\nRevascularization of a non-infarct-related artery during index hospitalization\n",
+          "Q01_CAT": "",
+          "SCORE": "",
+          "SCORE DEFINITIONS": "07",
+          "SCORE_GRAPHIC": "02"
+        }
+      },
+      {
+        "node": {
+          "name": "08",
+          "INDICATION": "",
+          "Term description": "8. STEMI or NSTEMI and successful PCI of culprit artery during index hospitalization\nA (8)\nSymptoms of recurrent myocardial ischemia and/or high-risk findings on noninvasive stress testing performed after\nindex hospitalization\nRevascularization of 1 additional coronary arteries\n",
+          "Q01_CAT": "",
+          "SCORE": "",
+          "SCORE DEFINITIONS": "",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "09",
+          "INDICATION": "",
+          "Term description": "9. UA/NSTEMI and low-risk features (e.g., TIMI score 2) for short-term risk of death or nonfatal MI\nU (6)\nRevascularization of the presumed culprit artery\n",
+          "Q01_CAT": "",
+          "SCORE": "",
+          "SCORE DEFINITIONS": "09",
+          "SCORE_GRAPHIC": "06"
+        }
+      },
+      {
+        "node": {
+          "name": "10",
+          "INDICATION": "",
+          "Term description": "10. UA/NSTEMI and intermediate-risk features (e.g., TIMI score 3–4) for short-term risk of death or nonfatal MI\nA (8)\nRevascularization of the presumed culprit artery\n",
+          "Q01_CAT": "",
+          "SCORE": "",
+          "SCORE DEFINITIONS": "10",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "11",
+          "INDICATION": "",
+          "Term description": "11. UA/NSTEMI and high-risk features for short-term risk of death or nonfatal MI\nA (9)\nRevascularization of the presumed culprit artery\n",
+          "Q01_CAT": "",
+          "SCORE": "",
+          "SCORE DEFINITIONS": "11",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "12",
+          "INDICATION": "",
+          "Term description": "12. UA/NSTEMI and high-risk features for short-term risk of death or nonfatal MI\nA (9)\nRevascularization of multiple coronary arteries when the culprit artery cannot clearly be determined\n",
+          "Q01_CAT": "",
+          "SCORE": "",
+          "SCORE DEFINITIONS": "12",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "13",
+          "INDICATION": "",
+          "Term description": "13. Patients with acute myocardial infarction (STEMI or NSTEMI)\nA (8)\nEvidence of cardiogenic shock\nRevascularization of 1 coronary arteries\n",
+          "Q01_CAT": "",
+          "SCORE": "",
+          "SCORE DEFINITIONS": "13",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "14-Asymptomatic",
+          "INDICATION": "14",
+          "Term description": "14. One- or 2-vessel CAD without involvement of proximal LAD - Low-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "01",
+          "SCORE DEFINITIONS": "14",
+          "SCORE_GRAPHIC": "01"
+        }
+      },
+      {
+        "node": {
+          "name": "14-I or II",
+          "INDICATION": "14",
+          "Term description": "14. One- or 2-vessel CAD without involvement of proximal LAD - Low-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "02",
+          "SCORE DEFINITIONS": "",
+          "SCORE_GRAPHIC": "01"
+        }
+      },
+      {
+        "node": {
+          "name": "14-III or IV",
+          "INDICATION": "14",
+          "Term description": "14. One- or 2-vessel CAD without involvement of proximal LAD - Low-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "05",
+          "SCORE DEFINITIONS": "",
+          "SCORE_GRAPHIC": "05"
+        }
+      },
+      {
+        "node": {
+          "name": "15-Asymptomatic",
+          "INDICATION": "15",
+          "Term description": "15. One- or 2-vessel CAD without involvement of proximal LAD - Low-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "02",
+          "SCORE DEFINITIONS": "",
+          "SCORE_GRAPHIC": "02"
+        }
+      },
+      {
+        "node": {
+          "name": "15-I or II",
+          "INDICATION": "15",
+          "Term description": "15. One- or 2-vessel CAD without involvement of proximal LAD - Low-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "05",
+          "SCORE DEFINITIONS": "",
+          "SCORE_GRAPHIC": "05"
+        }
+      },
+      {
+        "node": {
+          "name": "15-III or IV",
+          "INDICATION": "15",
+          "Term description": "15. One- or 2-vessel CAD without involvement of proximal LAD - Low-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "16-Asymptomatic",
+          "INDICATION": "16",
+          "Term description": "16. One- or 2-vessel CAD without involvement of proximal LAD - Intermediate-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "03",
+          "SCORE DEFINITIONS": "",
+          "SCORE_GRAPHIC": "03"
+        }
+      },
+      {
+        "node": {
+          "name": "16-I or II",
+          "INDICATION": "16",
+          "Term description": "16. One- or 2-vessel CAD without involvement of proximal LAD - Intermediate-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "05",
+          "SCORE DEFINITIONS": "",
+          "SCORE_GRAPHIC": "05"
+        }
+      },
+      {
+        "node": {
+          "name": "16-III or IV",
+          "INDICATION": "16",
+          "Term description": "16. One- or 2-vessel CAD without involvement of proximal LAD - Intermediate-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "06",
+          "SCORE DEFINITIONS": "",
+          "SCORE_GRAPHIC": "06"
+        }
+      },
+      {
+        "node": {
+          "name": "17-Asymptomatic",
+          "INDICATION": "17",
+          "Term description": "17. One- or 2-vessel CAD without involvement of proximal LAD - Intermediate-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "04",
+          "SCORE DEFINITIONS": "",
+          "SCORE_GRAPHIC": "04"
+        }
+      },
+      {
+        "node": {
+          "name": "17-I or II",
+          "INDICATION": "17",
+          "Term description": "17. One- or 2-vessel CAD without involvement of proximal LAD - Intermediate-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "17-III or IV",
+          "INDICATION": "17",
+          "Term description": "17. One- or 2-vessel CAD without involvement of proximal LAD - Intermediate-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "18-Asymptomatic",
+          "INDICATION": "18",
+          "Term description": "18. One- or 2-vessel CAD without involvement of proximal LAD - High-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "06",
+          "SCORE DEFINITIONS": "",
+          "SCORE_GRAPHIC": "06"
+        }
+      },
+      {
+        "node": {
+          "name": "18-I or II",
+          "INDICATION": "18",
+          "Term description": "18. One- or 2-vessel CAD without involvement of proximal LAD - High-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "18-III or IV",
+          "INDICATION": "18",
+          "Term description": "18. One- or 2-vessel CAD without involvement of proximal LAD - High-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "19-Asymptomatic",
+          "INDICATION": "19",
+          "Term description": "19. One- or 2-vessel CAD without involvement of proximal LAD - High-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "19-I or II",
+          "INDICATION": "19",
+          "Term description": "19. One- or 2-vessel CAD without involvement of proximal LAD - High-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "19-III or IV",
+          "INDICATION": "19",
+          "Term description": "19. One- or 2-vessel CAD without involvement of proximal LAD - High-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "20-Asymptomatic",
+          "INDICATION": "20",
+          "Term description": "20. One- or 2-vessel CAD without involvement of proximal LAD - No noninvasive testing performed -\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "03",
+          "SCORE DEFINITIONS": "20",
+          "SCORE_GRAPHIC": "03"
+        }
+      },
+      {
+        "node": {
+          "name": "20-I or II",
+          "INDICATION": "20",
+          "Term description": "20. One- or 2-vessel CAD without involvement of proximal LAD - No noninvasive testing performed -\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "05",
+          "SCORE DEFINITIONS": "",
+          "SCORE_GRAPHIC": "05"
+        }
+      },
+      {
+        "node": {
+          "name": "20-III or IV",
+          "INDICATION": "20",
+          "Term description": "20. One- or 2-vessel CAD without involvement of proximal LAD - No noninvasive testing performed -\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "20",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "21-Asymptomatic",
+          "INDICATION": "21",
+          "Term description": "21. One- or 2-vessel CAD with borderline stenosis  50% to 60% - No noninvasive testing performed - No further invasive evaluation performed (i.e., FFR, IVUS)\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "NR",
+          "SCORE DEFINITIONS": "21",
+          "SCORE_GRAPHIC": "NR"
+        }
+      },
+      {
+        "node": {
+          "name": "21-I or II",
+          "INDICATION": "21",
+          "Term description": "21. One- or 2-vessel CAD with borderline stenosis 50% to 60% - No noninvasive testing performed - No further invasive evaluation performed (i.e., FFR, IVUS)\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "02",
+          "SCORE DEFINITIONS": "21",
+          "SCORE_GRAPHIC": "02"
+        }
+      },
+      {
+        "node": {
+          "name": "21-III or IV",
+          "INDICATION": "21",
+          "Term description": "21. One- or 2-vessel CAD with borderline stenosis 50% to 60% - No noninvasive testing performed - No further invasive evaluation performed (i.e., FFR, IVUS)\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "03",
+          "SCORE DEFINITIONS": "21",
+          "SCORE_GRAPHIC": "03"
+        }
+      },
+      {
+        "node": {
+          "name": "22-Asymptomatic",
+          "INDICATION": "22",
+          "Term description": "22. One- or 2-vessel CAD with borderline stenosis 50% to 60% - No noninvasive testing performed or equivocal test results present - FFR less than or equal to 0.80* and/or IVUS with significant reduction in\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "03",
+          "SCORE DEFINITIONS": "22",
+          "SCORE_GRAPHIC": "03"
+        }
+      },
+      {
+        "node": {
+          "name": "22-I or II",
+          "INDICATION": "22",
+          "Term description": "22. One- or 2-vessel CAD with borderline stenosis 50% to 60% - No noninvasive testing performed or equivocal test results present - FFR less than or equal to 0.80* and/or IVUS with significant reduction in\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "06",
+          "SCORE DEFINITIONS": "22",
+          "SCORE_GRAPHIC": "06"
+        }
+      },
+      {
+        "node": {
+          "name": "22-III or IV",
+          "INDICATION": "22",
+          "Term description": "22. One- or 2-vessel CAD with borderline stenosis 50% to 60% - No noninvasive testing performed or equivocal test results present - FFR less than or equal to 0.80* and/or IVUS with significant reduction in\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "22",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "23-Asymptomatic",
+          "INDICATION": "23",
+          "Term description": "23. One- or 2-vessel CAD with borderline stenosis 50% to 60% - No noninvasive testing performed or equivocal test results present - FFR or IVUS findings do not meet criteria for significant stenosis\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "01",
+          "SCORE DEFINITIONS": "23",
+          "SCORE_GRAPHIC": "01"
+        }
+      },
+      {
+        "node": {
+          "name": "23-I or II",
+          "INDICATION": "23",
+          "Term description": "23. One- or 2-vessel CAD with borderline stenosis 50% to 60% - No noninvasive testing performed or equivocal test results present - FFR or IVUS findings do not meet criteria for significant stenosis\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "02",
+          "SCORE DEFINITIONS": "23",
+          "SCORE_GRAPHIC": "02"
+        }
+      },
+      {
+        "node": {
+          "name": "23-III or IV",
+          "INDICATION": "23",
+          "Term description": "23. One- or 2-vessel CAD with borderline stenosis 50% to 60% - No noninvasive testing performed or equivocal test results present - FFR or IVUS findings do not meet criteria for significant stenosis\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "02",
+          "SCORE DEFINITIONS": "23",
+          "SCORE_GRAPHIC": "02"
+        }
+      },
+      {
+        "node": {
+          "name": "24-Asymptomatic",
+          "INDICATION": "24",
+          "Term description": "24. Chronic total occlusion of 1 major epicardial coronary artery, without other coronary stenoses - Low-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "01",
+          "SCORE DEFINITIONS": "24",
+          "SCORE_GRAPHIC": "01"
+        }
+      },
+      {
+        "node": {
+          "name": "24-I or II",
+          "INDICATION": "24",
+          "Term description": "24. Chronic total occlusion of 1 major epicardial coronary artery, without other coronary stenoses - Low-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "02",
+          "SCORE DEFINITIONS": "24",
+          "SCORE_GRAPHIC": "02"
+        }
+      },
+      {
+        "node": {
+          "name": "24-III or IV",
+          "INDICATION": "24",
+          "Term description": "24. Chronic total occlusion of 1 major epicardial coronary artery, without other coronary stenoses - Low-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "03",
+          "SCORE DEFINITIONS": "24",
+          "SCORE_GRAPHIC": "03"
+        }
+      },
+      {
+        "node": {
+          "name": "25-Asymptomatic",
+          "INDICATION": "25",
+          "Term description": "25. Chronic total occlusion of 1 major epicardial coronary artery, without other coronary stenoses - Low-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "01",
+          "SCORE DEFINITIONS": "25",
+          "SCORE_GRAPHIC": "01"
+        }
+      },
+      {
+        "node": {
+          "name": "25-I or II",
+          "INDICATION": "25",
+          "Term description": "25. Chronic total occlusion of 1 major epicardial coronary artery, without other coronary stenoses - Low-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "04",
+          "SCORE DEFINITIONS": "25",
+          "SCORE_GRAPHIC": "04"
+        }
+      },
+      {
+        "node": {
+          "name": "25-III or IV",
+          "INDICATION": "25",
+          "Term description": "25. Chronic total occlusion of 1 major epicardial coronary artery, without other coronary stenoses - Low-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "06",
+          "SCORE DEFINITIONS": "25",
+          "SCORE_GRAPHIC": "06"
+        }
+      },
+      {
+        "node": {
+          "name": "26-Asymptomatic",
+          "INDICATION": "26",
+          "Term description": "26. Chronic total occlusion of 1 major epicardial coronary artery, without other coronary stenoses - Intermediate-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "03",
+          "SCORE DEFINITIONS": "26",
+          "SCORE_GRAPHIC": "03"
+        }
+      },
+      {
+        "node": {
+          "name": "26-I or II",
+          "INDICATION": "26",
+          "Term description": "26. Chronic total occlusion of 1 major epicardial coronary artery, without other coronary stenoses - Intermediate-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "04",
+          "SCORE DEFINITIONS": "26",
+          "SCORE_GRAPHIC": "04"
+        }
+      },
+      {
+        "node": {
+          "name": "26-III or IV",
+          "INDICATION": "26",
+          "Term description": "26. Chronic total occlusion of 1 major epicardial coronary artery, without other coronary stenoses - Intermediate-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "06",
+          "SCORE DEFINITIONS": "26",
+          "SCORE_GRAPHIC": "06"
+        }
+      },
+      {
+        "node": {
+          "name": "27-Asymptomatic",
+          "INDICATION": "27",
+          "Term description": "27. Chronic total occlusion of 1 major epicardial coronary artery, without other coronary stenoses - Intermediate-risk criteria on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "04",
+          "SCORE DEFINITIONS": "27",
+          "SCORE_GRAPHIC": "04"
+        }
+      },
+      {
+        "node": {
+          "name": "27-I or II",
+          "INDICATION": "27",
+          "Term description": "27. Chronic total occlusion of 1 major epicardial coronary artery, without other coronary stenoses - Intermediate-risk criteria on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "05",
+          "SCORE DEFINITIONS": "27",
+          "SCORE_GRAPHIC": "05"
+        }
+      },
+      {
+        "node": {
+          "name": "27-III or IV",
+          "INDICATION": "27",
+          "Term description": "27. Chronic total occlusion of 1 major epicardial coronary artery, without other coronary stenoses - Intermediate-risk criteria on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "27",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "28-Asymptomatic",
+          "INDICATION": "28",
+          "Term description": "28. Chronic total occlusion of 1 major epicardial coronary artery, without other coronary stenoses - High-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "04",
+          "SCORE DEFINITIONS": "28",
+          "SCORE_GRAPHIC": "04"
+        }
+      },
+      {
+        "node": {
+          "name": "28-I or II",
+          "INDICATION": "28",
+          "Term description": "28. Chronic total occlusion of 1 major epicardial coronary artery, without other coronary stenoses - High-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "05",
+          "SCORE DEFINITIONS": "28",
+          "SCORE_GRAPHIC": "05"
+        }
+      },
+      {
+        "node": {
+          "name": "28-III or IV",
+          "INDICATION": "28",
+          "Term description": "28. Chronic total occlusion of 1 major epicardial coronary artery, without other coronary stenoses - High-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "28",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "29-Asymptomatic",
+          "INDICATION": "29",
+          "Term description": "29. Chronic total occlusion of 1 major epicardial coronary artery, without other coronary stenoses - High-risk criteria on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "05",
+          "SCORE DEFINITIONS": "29",
+          "SCORE_GRAPHIC": "05"
+        }
+      },
+      {
+        "node": {
+          "name": "29-I or II",
+          "INDICATION": "29",
+          "Term description": "29. Chronic total occlusion of 1 major epicardial coronary artery, without other coronary stenoses - High-risk criteria on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "29",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "29-III or IV",
+          "INDICATION": "29",
+          "Term description": "29. Chronic total occlusion of 1 major epicardial coronary artery, without other coronary stenoses - High-risk criteria on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "29",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "30-Asymptomatic",
+          "INDICATION": "30",
+          "Term description": "30. One-vessel CAD involving the proximal LAD - Low-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "04",
+          "SCORE DEFINITIONS": "30",
+          "SCORE_GRAPHIC": "04"
+        }
+      },
+      {
+        "node": {
+          "name": "30-I or II",
+          "INDICATION": "30",
+          "Term description": "30. One-vessel CAD involving the proximal LAD - Low-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "05",
+          "SCORE DEFINITIONS": "30",
+          "SCORE_GRAPHIC": "05"
+        }
+      },
+      {
+        "node": {
+          "name": "30-III or IV",
+          "INDICATION": "30",
+          "Term description": "30. One-vessel CAD involving the proximal LAD - Low-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "30",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "31-Asymptomatic",
+          "INDICATION": "31",
+          "Term description": "31. One-vessel CAD involving the proximal LAD - Low-risk findings on noninvasive testing - Receiving maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "04",
+          "SCORE DEFINITIONS": "31",
+          "SCORE_GRAPHIC": "04"
+        }
+      },
+      {
+        "node": {
+          "name": "31-I or II",
+          "INDICATION": "31",
+          "Term description": "31. One-vessel CAD involving the proximal LAD - Low-risk findings on noninvasive testing - Receiving maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "31",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "31-III or IV",
+          "INDICATION": "31",
+          "Term description": "31. One-vessel CAD involving the proximal LAD - Low-risk findings on noninvasive testing - Receiving maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "31",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "32-Asymptomatic",
+          "INDICATION": "32",
+          "Term description": "32. One-vessel CAD involving the proximal LAD - Intermediate-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "04",
+          "SCORE DEFINITIONS": "32",
+          "SCORE_GRAPHIC": "04"
+        }
+      },
+      {
+        "node": {
+          "name": "32-I or II",
+          "INDICATION": "32",
+          "Term description": "32. One-vessel CAD involving the proximal LAD - Intermediate-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "06",
+          "SCORE DEFINITIONS": "32",
+          "SCORE_GRAPHIC": "06"
+        }
+      },
+      {
+        "node": {
+          "name": "32-III or IV",
+          "INDICATION": "32",
+          "Term description": "32. One-vessel CAD involving the proximal LAD - Intermediate-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "32",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "33-Asymptomatic",
+          "INDICATION": "33",
+          "Term description": "33. One-vessel CAD involving the proximal LAD - Intermediate-risk findings on noninvasive testing - Receiving maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "05",
+          "SCORE DEFINITIONS": "33",
+          "SCORE_GRAPHIC": "05"
+        }
+      },
+      {
+        "node": {
+          "name": "33-I or II",
+          "INDICATION": "33",
+          "Term description": "33. One-vessel CAD involving the proximal LAD - Intermediate-risk findings on noninvasive testing - Receiving maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "33",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "33-III or IV",
+          "INDICATION": "33",
+          "Term description": "33. One-vessel CAD involving the proximal LAD - Intermediate-risk findings on noninvasive testing - Receiving maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "33",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "34-Asymptomatic",
+          "INDICATION": "34",
+          "Term description": "34. One-vessel CAD involving the proximal LAD - High-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "34",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "34-I or II",
+          "INDICATION": "34",
+          "Term description": "34. One-vessel CAD involving the proximal LAD - High-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "34",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "34-III or IV",
+          "INDICATION": "34",
+          "Term description": "34. One-vessel CAD involving the proximal LAD - High-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "34",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "35-Asymptomatic",
+          "INDICATION": "35",
+          "Term description": "35. One-vessel CAD involving the proximal LAD - High-risk findings on noninvasive testing - Receiving maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "35",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "35-I or II",
+          "INDICATION": "35",
+          "Term description": "35. One-vessel CAD involving the proximal LAD - High-risk findings on noninvasive testing - Receiving maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "35",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "35-III or IV",
+          "INDICATION": "35",
+          "Term description": "35. One-vessel CAD involving the proximal LAD - High-risk findings on noninvasive testing - Receiving maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "35",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "36-Asymptomatic",
+          "INDICATION": "36",
+          "Term description": "36. Two-vessel CAD involving the proximal LAD - Low-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "04",
+          "SCORE DEFINITIONS": "36",
+          "SCORE_GRAPHIC": "04"
+        }
+      },
+      {
+        "node": {
+          "name": "36-I or II",
+          "INDICATION": "36",
+          "Term description": "36. Two-vessel CAD involving the proximal LAD - Low-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "06",
+          "SCORE DEFINITIONS": "36",
+          "SCORE_GRAPHIC": "06"
+        }
+      },
+      {
+        "node": {
+          "name": "36-III or IV",
+          "INDICATION": "36",
+          "Term description": "36. Two-vessel CAD involving the proximal LAD - Low-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "36",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "37-Asymptomatic",
+          "INDICATION": "37",
+          "Term description": "37. Two-vessel CAD involving the proximal LAD - Low-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "05",
+          "SCORE DEFINITIONS": "37",
+          "SCORE_GRAPHIC": "05"
+        }
+      },
+      {
+        "node": {
+          "name": "37-I or II",
+          "INDICATION": "37",
+          "Term description": "37. Two-vessel CAD involving the proximal LAD - Low-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "37",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "37-III or IV",
+          "INDICATION": "37",
+          "Term description": "37. Two-vessel CAD involving the proximal LAD - Low-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "37",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "38-Asymptomatic",
+          "INDICATION": "38",
+          "Term description": "38. Two-vessel CAD involving the proximal LAD - Intermediate-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "05",
+          "SCORE DEFINITIONS": "38",
+          "SCORE_GRAPHIC": "05"
+        }
+      },
+      {
+        "node": {
+          "name": "38-I or II",
+          "INDICATION": "38",
+          "Term description": "38. Two-vessel CAD involving the proximal LAD - Intermediate-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "38",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "38-III or IV",
+          "INDICATION": "38",
+          "Term description": "38. Two-vessel CAD involving the proximal LAD - Intermediate-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "38",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "39-Asymptomatic",
+          "INDICATION": "39",
+          "Term description": "39. Two-vessel CAD involving the proximal LAD - Intermediate-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "06",
+          "SCORE DEFINITIONS": "39",
+          "SCORE_GRAPHIC": "06"
+        }
+      },
+      {
+        "node": {
+          "name": "39-I or II",
+          "INDICATION": "39",
+          "Term description": "39. Two-vessel CAD involving the proximal LAD - Intermediate-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "39",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "39-III or IV",
+          "INDICATION": "39",
+          "Term description": "39. Two-vessel CAD involving the proximal LAD - Intermediate-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "39",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "40-Asymptomatic",
+          "INDICATION": "40",
+          "Term description": "40. Two-vessel CAD involving the proximal LAD - High-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "40",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "40-I or II",
+          "INDICATION": "40",
+          "Term description": "40. Two-vessel CAD involving the proximal LAD - High-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "40",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "40-III or IV",
+          "INDICATION": "40",
+          "Term description": "40. Two-vessel CAD involving the proximal LAD - High-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "40",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "41-Asymptomatic",
+          "INDICATION": "41",
+          "Term description": "41. Two-vessel CAD involving the proximal LAD - High-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "41",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "41-I or II",
+          "INDICATION": "41",
+          "Term description": "41. Two-vessel CAD involving the proximal LAD - High-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "41",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "41-III or IV",
+          "INDICATION": "41",
+          "Term description": "41. Two-vessel CAD involving the proximal LAD - High-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "41",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "42-Asymptomatic",
+          "INDICATION": "42",
+          "Term description": "42. Three-vessel CAD (no left main) - Low-risk findings on noninvasive testing including normal - LV systolic function\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "05",
+          "SCORE DEFINITIONS": "42",
+          "SCORE_GRAPHIC": "05"
+        }
+      },
+      {
+        "node": {
+          "name": "42-I or II",
+          "INDICATION": "42",
+          "Term description": "42. Three-vessel CAD (no left main) - Low-risk findings on noninvasive testing including normal - LV systolic function\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "06",
+          "SCORE DEFINITIONS": "42",
+          "SCORE_GRAPHIC": "06"
+        }
+      },
+      {
+        "node": {
+          "name": "42-III or IV",
+          "INDICATION": "42",
+          "Term description": "42. Three-vessel CAD (no left main) - Low-risk findings on noninvasive testing including normal - LV systolic function\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "42",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "43-Asymptomatic",
+          "INDICATION": "43",
+          "Term description": "43. Three-vessel CAD (no left main) - Low-risk findings on noninvasive testing including normal - LV systolic function\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "05",
+          "SCORE DEFINITIONS": "43",
+          "SCORE_GRAPHIC": "05"
+        }
+      },
+      {
+        "node": {
+          "name": "43-I or II",
+          "INDICATION": "43",
+          "Term description": "43. Three-vessel CAD (no left main) - Low-risk findings on noninvasive testing including normal - LV systolic function\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "43",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "43-III or IV",
+          "INDICATION": "43",
+          "Term description": "43. Three-vessel CAD (no left main) - Low-risk findings on noninvasive testing including normal - LV systolic function\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "43",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "44-Asymptomatic",
+          "INDICATION": "44",
+          "Term description": "44. Three-vessel CAD (no left main) - Intermediate-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "44",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "44-I or II",
+          "INDICATION": "44",
+          "Term description": "44. Three-vessel CAD (no left main) - Intermediate-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "44",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "44-III or IV",
+          "INDICATION": "44",
+          "Term description": "44. Three-vessel CAD (no left main) - Intermediate-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "44",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "45-Asymptomatic",
+          "INDICATION": "45",
+          "Term description": "45. Three-vessel CAD (no left main) - Intermediate-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "45",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "45-I or II",
+          "INDICATION": "45",
+          "Term description": "45. Three-vessel CAD (no left main) - Intermediate-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "45",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "45-III or IV",
+          "INDICATION": "45",
+          "Term description": "45. Three-vessel CAD (no left main) - Intermediate-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "45",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "46-Asymptomatic",
+          "INDICATION": "46",
+          "Term description": "46. Three-vessel CAD (no left main) - High-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "46",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "46-I or II",
+          "INDICATION": "46",
+          "Term description": "46. Three-vessel CAD (no left main) - High-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "46",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "46-III or IV",
+          "INDICATION": "46",
+          "Term description": "46. Three-vessel CAD (no left main) - High-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "46",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "47-Asymptomatic",
+          "INDICATION": "47",
+          "Term description": "47. Three-vessel CAD (no left main) - High-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "47",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "47-I or II",
+          "INDICATION": "47",
+          "Term description": "47. Three-vessel CAD (no left main) - High-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "47",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "47-III or IV",
+          "INDICATION": "47",
+          "Term description": "47. Three-vessel CAD (no left main) - High-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "47",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "48-Asymptomatic",
+          "INDICATION": "48",
+          "Term description": "48. Three-vessel CAD (no left main) - Abnormal LV systolic function -\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "48",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "48-I or II",
+          "INDICATION": "48",
+          "Term description": "48. Three-vessel CAD (no left main) - Abnormal LV systolic function -\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "48",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "48-III or IV",
+          "INDICATION": "48",
+          "Term description": "48. Three-vessel CAD (no left main) - Abnormal LV systolic function -\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "48",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "49-Asymptomatic",
+          "INDICATION": "49",
+          "Term description": "49. Left main stenosis -  -\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "49",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "49-I or II",
+          "INDICATION": "49",
+          "Term description": "49. Left main stenosis -  -\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "49",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "49-III or IV",
+          "INDICATION": "49",
+          "Term description": "49. Left main stenosis -  -\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "49",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "50-Asymptomatic",
+          "INDICATION": "50",
+          "Term description": "50. One or more stenoses in saphenous vein graft(s) - Low-risk findings on noninvasive testing including normal LV systolic function - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "03",
+          "SCORE DEFINITIONS": "50",
+          "SCORE_GRAPHIC": "03"
+        }
+      },
+      {
+        "node": {
+          "name": "50-I or II",
+          "INDICATION": "50",
+          "Term description": "50. One or more stenoses in saphenous vein graft(s) - Low-risk findings on noninvasive testing including normal LV systolic function - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "04",
+          "SCORE DEFINITIONS": "50",
+          "SCORE_GRAPHIC": "04"
+        }
+      },
+      {
+        "node": {
+          "name": "50-III or IV",
+          "INDICATION": "50",
+          "Term description": "50. One or more stenoses in saphenous vein graft(s) - Low-risk findings on noninvasive testing including normal LV systolic function - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "06",
+          "SCORE DEFINITIONS": "50",
+          "SCORE_GRAPHIC": "06"
+        }
+      },
+      {
+        "node": {
+          "name": "51-Asymptomatic",
+          "INDICATION": "51",
+          "Term description": "51. One or more stenoses in saphenous vein graft(s) - Low-risk findings on noninvasive testing including normal LV systolic function - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "04",
+          "SCORE DEFINITIONS": "51",
+          "SCORE_GRAPHIC": "04"
+        }
+      },
+      {
+        "node": {
+          "name": "51-I or II",
+          "INDICATION": "51",
+          "Term description": "51. One or more stenoses in saphenous vein graft(s) - Low-risk findings on noninvasive testing including normal LV systolic function - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "06",
+          "SCORE DEFINITIONS": "51",
+          "SCORE_GRAPHIC": "06"
+        }
+      },
+      {
+        "node": {
+          "name": "51-III or IV",
+          "INDICATION": "51",
+          "Term description": "51. One or more stenoses in saphenous vein graft(s) - Low-risk findings on noninvasive testing including normal LV systolic function - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "51",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "52-Asymptomatic",
+          "INDICATION": "52",
+          "Term description": "52. One or more stenoses in saphenous vein graft(s) - Intermediate-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "04",
+          "SCORE DEFINITIONS": "52",
+          "SCORE_GRAPHIC": "04"
+        }
+      },
+      {
+        "node": {
+          "name": "52-I or II",
+          "INDICATION": "52",
+          "Term description": "52. One or more stenoses in saphenous vein graft(s) - Intermediate-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "06",
+          "SCORE DEFINITIONS": "52",
+          "SCORE_GRAPHIC": "06"
+        }
+      },
+      {
+        "node": {
+          "name": "52-III or IV",
+          "INDICATION": "52",
+          "Term description": "52. One or more stenoses in saphenous vein graft(s) - Intermediate-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "52",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "53-Asymptomatic",
+          "INDICATION": "53",
+          "Term description": "53. One or more stenoses in saphenous vein graft(s) - Intermediate-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "04",
+          "SCORE DEFINITIONS": "53",
+          "SCORE_GRAPHIC": "04"
+        }
+      },
+      {
+        "node": {
+          "name": "53-I or II",
+          "INDICATION": "53",
+          "Term description": "53. One or more stenoses in saphenous vein graft(s) - Intermediate-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "53",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "53-III or IV",
+          "INDICATION": "53",
+          "Term description": "53. One or more stenoses in saphenous vein graft(s) - Intermediate-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "53",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "54-Asymptomatic",
+          "INDICATION": "54",
+          "Term description": "54. One or more stenoses in saphenous vein graft(s) - High-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "06",
+          "SCORE DEFINITIONS": "54",
+          "SCORE_GRAPHIC": "06"
+        }
+      },
+      {
+        "node": {
+          "name": "54-I or II",
+          "INDICATION": "54",
+          "Term description": "54. One or more stenoses in saphenous vein graft(s) - High-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "54",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "54-III or IV",
+          "INDICATION": "54",
+          "Term description": "54. One or more stenoses in saphenous vein graft(s) - High-risk findings on noninvasive testing - Receiving no or minimal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "54",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "55-Asymptomatic",
+          "INDICATION": "55",
+          "Term description": "55. One or more stenoses in saphenous vein graft(s) - High-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "55",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "55-I or II",
+          "INDICATION": "55",
+          "Term description": "55. One or more stenoses in saphenous vein graft(s) - High-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "55",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "55-III or IV",
+          "INDICATION": "55",
+          "Term description": "55. One or more stenoses in saphenous vein graft(s) - High-risk findings on noninvasive testing - Receiving a course of maximal anti-ischemic medical therapy\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "55",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "56-Asymptomatic",
+          "INDICATION": "56",
+          "Term description": "56. One or more lesions in native coronary arteries without bypass grafts - All bypass grafts patent and without significant disease - Low-risk findings on noninvasive testing including normal LV systolic function\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "NR",
+          "SCORE DEFINITIONS": "56",
+          "SCORE_GRAPHIC": "NR"
+        }
+      },
+      {
+        "node": {
+          "name": "56-I or II",
+          "INDICATION": "56",
+          "Term description": "56. One or more lesions in native coronary arteries without bypass grafts - All bypass grafts patent and without significant disease - Low-risk findings on noninvasive testing including normal LV systolic function\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "03",
+          "SCORE DEFINITIONS": "56",
+          "SCORE_GRAPHIC": "03"
+        }
+      },
+      {
+        "node": {
+          "name": "56-III or IV",
+          "INDICATION": "56",
+          "Term description": "56. One or more lesions in native coronary arteries without bypass grafts - All bypass grafts patent and without significant disease - Low-risk findings on noninvasive testing including normal LV systolic function\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "06",
+          "SCORE DEFINITIONS": "56",
+          "SCORE_GRAPHIC": "06"
+        }
+      },
+      {
+        "node": {
+          "name": "57-Asymptomatic",
+          "INDICATION": "57",
+          "Term description": "57. One or more lesions in native coronary arteries without bypass grafts - All bypass grafts patent and without significant disease - Low-risk findings on noninvasive testing including normal LV systolic function\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "03",
+          "SCORE DEFINITIONS": "57",
+          "SCORE_GRAPHIC": "03"
+        }
+      },
+      {
+        "node": {
+          "name": "57-I or II",
+          "INDICATION": "57",
+          "Term description": "57. One or more lesions in native coronary arteries without bypass grafts - All bypass grafts patent and without significant disease - Low-risk findings on noninvasive testing including normal LV systolic function\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "05",
+          "SCORE DEFINITIONS": "57",
+          "SCORE_GRAPHIC": "05"
+        }
+      },
+      {
+        "node": {
+          "name": "57-III or IV",
+          "INDICATION": "57",
+          "Term description": "57. One or more lesions in native coronary arteries without bypass grafts - All bypass grafts patent and without significant disease - Low-risk findings on noninvasive testing including normal LV systolic function\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "57",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "58-Asymptomatic",
+          "INDICATION": "58",
+          "Term description": "58. One or more lesions in native coronary arteries without bypass grafts - All bypass grafts patent and without significant disease - Intermediate-risk findings on noninvasive testing\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "03",
+          "SCORE DEFINITIONS": "58",
+          "SCORE_GRAPHIC": "03"
+        }
+      },
+      {
+        "node": {
+          "name": "58-I or II",
+          "INDICATION": "58",
+          "Term description": "58. One or more lesions in native coronary arteries without bypass grafts - All bypass grafts patent and without significant disease - Intermediate-risk findings on noninvasive testing\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "05",
+          "SCORE DEFINITIONS": "58",
+          "SCORE_GRAPHIC": "05"
+        }
+      },
+      {
+        "node": {
+          "name": "58-III or IV",
+          "INDICATION": "58",
+          "Term description": "58. One or more lesions in native coronary arteries without bypass grafts - All bypass grafts patent and without significant disease - Intermediate-risk findings on noninvasive testing\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "58",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "59-Asymptomatic",
+          "INDICATION": "59",
+          "Term description": "59. One or more lesions in native coronary arteries without bypass grafts - All bypass grafts patent and without significant disease - Intermediate-risk findings on noninvasive testing\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "04",
+          "SCORE DEFINITIONS": "59",
+          "SCORE_GRAPHIC": "04"
+        }
+      },
+      {
+        "node": {
+          "name": "59-I or II",
+          "INDICATION": "59",
+          "Term description": "59. One or more lesions in native coronary arteries without bypass grafts - All bypass grafts patent and without significant disease - Intermediate-risk findings on noninvasive testing\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "06",
+          "SCORE DEFINITIONS": "59",
+          "SCORE_GRAPHIC": "06"
+        }
+      },
+      {
+        "node": {
+          "name": "59-III or IV",
+          "INDICATION": "59",
+          "Term description": "59. One or more lesions in native coronary arteries without bypass grafts - All bypass grafts patent and without significant disease - Intermediate-risk findings on noninvasive testing\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "59",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "60-Asymptomatic",
+          "INDICATION": "60",
+          "Term description": "60. One or more lesions in native coronary arteries without bypass grafts - All bypass grafts patent and without significant disease - High-risk findings on noninvasive testing\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "06",
+          "SCORE DEFINITIONS": "60",
+          "SCORE_GRAPHIC": "06"
+        }
+      },
+      {
+        "node": {
+          "name": "60-I or II",
+          "INDICATION": "60",
+          "Term description": "60. One or more lesions in native coronary arteries without bypass grafts - All bypass grafts patent and without significant disease - High-risk findings on noninvasive testing\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "60",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "60-III or IV",
+          "INDICATION": "60",
+          "Term description": "60. One or more lesions in native coronary arteries without bypass grafts - All bypass grafts patent and without significant disease - High-risk findings on noninvasive testing\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "60",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "61-Asymptomatic",
+          "INDICATION": "61",
+          "Term description": "61. One or more lesions in native coronary arteries without bypass grafts - All bypass grafts patent and without significant disease - High-risk findings on noninvasive testing\n",
+          "Q01_CAT": "Asymptomatic",
+          "SCORE": "05",
+          "SCORE DEFINITIONS": "61",
+          "SCORE_GRAPHIC": "05"
+        }
+      },
+      {
+        "node": {
+          "name": "61-I or II",
+          "INDICATION": "61",
+          "Term description": "61. One or more lesions in native coronary arteries without bypass grafts - All bypass grafts patent and without significant disease - High-risk findings on noninvasive testing\n",
+          "Q01_CAT": "I or II",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "61",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "61-III or IV",
+          "INDICATION": "61",
+          "Term description": "61. One or more lesions in native coronary arteries without bypass grafts - All bypass grafts patent and without significant disease - High-risk findings on noninvasive testing\n",
+          "Q01_CAT": "III or IV",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "61",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "62 - CABG",
+          "INDICATION": "62",
+          "Term description": "",
+          "Q01_CAT": "",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "62",
+          "SCORE_GRAPHIC": "08"
+        }
+      },
+      {
+        "node": {
+          "name": "62 - PCI",
+          "INDICATION": "62",
+          "Term description": "",
+          "Q01_CAT": "",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "62",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "63 - CABG",
+          "INDICATION": "63",
+          "Term description": "",
+          "Q01_CAT": "",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "63",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "63 - PCI",
+          "INDICATION": "63",
+          "Term description": "",
+          "Q01_CAT": "",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "63",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "64 - CABG",
+          "INDICATION": "64",
+          "Term description": "A (9)\n",
+          "Q01_CAT": "",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "64",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "64 - PCI",
+          "INDICATION": "64",
+          "Term description": "",
+          "Q01_CAT": "",
+          "SCORE": "04",
+          "SCORE DEFINITIONS": "64",
+          "SCORE_GRAPHIC": "04"
+        }
+      },
+      {
+        "node": {
+          "name": "65 - CABG",
+          "INDICATION": "65",
+          "Term description": "",
+          "Q01_CAT": "",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "65",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "65 - PCI",
+          "INDICATION": "65",
+          "Term description": "",
+          "Q01_CAT": "",
+          "SCORE": "06",
+          "SCORE DEFINITIONS": "65",
+          "SCORE_GRAPHIC": "06"
+        }
+      },
+      {
+        "node": {
+          "name": "66 - CABG",
+          "INDICATION": "66",
+          "Term description": "",
+          "Q01_CAT": "",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "66",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "66 - PCI",
+          "INDICATION": "66",
+          "Term description": "",
+          "Q01_CAT": "",
+          "SCORE": "05",
+          "SCORE DEFINITIONS": "66",
+          "SCORE_GRAPHIC": "05"
+        }
+      },
+      {
+        "node": {
+          "name": "67 - CABG",
+          "INDICATION": "67",
+          "Term description": "",
+          "Q01_CAT": "",
+          "SCORE": "09",
+          "SCORE DEFINITIONS": "67",
+          "SCORE_GRAPHIC": "09"
+        }
+      },
+      {
+        "node": {
+          "name": "67 - PCI",
+          "INDICATION": "67",
+          "Term description": "",
+          "Q01_CAT": "",
+          "SCORE": "03",
+          "SCORE DEFINITIONS": "67",
+          "SCORE_GRAPHIC": "03"
+        }
+      },
+      {
+        "node": {
+          "name": "68",
+          "INDICATION": "68",
+          "Term description": "",
+          "Q01_CAT": "",
+          "SCORE": "",
+          "SCORE DEFINITIONS": "",
+          "SCORE_GRAPHIC": ""
+        }
+      },
+      {
+        "node": {
+          "name": "68 - CABG",
+          "INDICATION": "68",
+          "Term description": "",
+          "Q01_CAT": "",
+          "SCORE": "07",
+          "SCORE DEFINITIONS": "68",
+          "SCORE_GRAPHIC": "07"
+        }
+      },
+      {
+        "node": {
+          "name": "68 - PCI",
+          "INDICATION": "68",
+          "Term description": "",
+          "Q01_CAT": "",
+          "SCORE": "06",
+          "SCORE DEFINITIONS": "68",
+          "SCORE_GRAPHIC": "06"
+        }
+      },
+      {
+        "node": {
+          "name": "69",
+          "INDICATION": "69",
+          "Term description": "",
+          "Q01_CAT": "",
+          "SCORE": "",
+          "SCORE DEFINITIONS": "",
+          "SCORE_GRAPHIC": ""
+        }
+      },
+      {
+        "node": {
+          "name": "69 - CABG",
+          "INDICATION": "69",
+          "Term description": "",
+          "Q01_CAT": "",
+          "SCORE": "06",
+          "SCORE DEFINITIONS": "69",
+          "SCORE_GRAPHIC": "06"
+        }
+      },
+      {
+        "node": {
+          "name": "69 - PCI",
+          "INDICATION": "69",
+          "Term description": "",
+          "Q01_CAT": "",
+          "SCORE": "08",
+          "SCORE DEFINITIONS": "69",
+          "SCORE_GRAPHIC": "08"
+        }
+      }
+    ]
+  }
